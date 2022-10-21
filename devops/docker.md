@@ -20,7 +20,9 @@
 
 description: Ayant découvert Docker et Docker-compose en entreprise, Je n'ai eu l'occasion de le manipuler uniquement sur des repositories privés c'est pourquoi j'ai décidé de réunir
 les questions en un seul exemple épuré de ses données sensibles. L'exemple ci dessous represente un docker-compose.yml permettant la création d'un environnement complet PHP/mysql sur un serveur nginx.
-> ```version: "2"
+> 
+```
+version: "2"
 
 services:
   nginx:
